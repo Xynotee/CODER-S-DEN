@@ -1,31 +1,58 @@
 // Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
-
+firstName = ('Oluwatobiloba', lastName = 'Okusaga', country = 'Nigeria', age = 29, isMarried = false, year = 2022)
+console.log(typeof(country))
+console.log(typeof(isMarried))
+console.log(typeof(year))
+console.log(typeof(firstName))
 // Check if type of '10' is equal to 10
-
+console.log(parseInt('10') === 10)
 // Check if parseInt('9.8') is equal to 10
-
+let numfl = parseFloat('9.8')
+console.log(Math.ceil(numfl) === 10)
 // Boolean value is either true or false.
 
 // Write three JavaScript statement which provide truthy value.
+let statement = "I'm blessed"
+statement = true
+console.log(statement)
 // Write three JavaScript statement which provide falsy value.
+let falsyyy = ''
+
 // Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
 
 // 4 > 3
+console.log(4 > 3)
 // 4 >= 3
+console.log(4 >= 3)
 // 4 < 3
+console.log(4 < 3)
 // 4 <= 3
+console.log(4 <= 3)
 // 4 == 4
+console.log(4 == 4)
 // 4 === 4
+console.log(4 === 4)
 // 4 != 4
+console.log(4 != 4)
 // 4 !== 4
+console.log(4 !== 4)
 // 4 != '4'
+console.log(4 != '4')
 // 4 == '4'
+console.log(4 == 4)
 // 4 === '4'
+console.log(4 === 3)
 // Find the length of python and jargon and make a falsy comparison statement.
+let tech1 = 'python'
+let tech2 = 'jargon'
+let stat = (tech1.length != tech2.length)
+console.log(stat)
 // Figure out the result of the following expressions first without using console.log(). After you decide the result confirm it by using console.log()
 
 // 4 > 3 && 10 < 12
+console.log(4>3 && 10<12)
 // 4 > 3 && 10 > 12
+console.log(4>3 && 10>12)
 // 4 > 3 || 10 < 12
 // 4 > 3 || 10 > 12
 // !(4 > 3)
@@ -35,23 +62,35 @@
 // !(4 > 3 && 10 > 12)
 // !(4 === '4')
 // There is no 'on' in both dragon and python
+console.log(!(('python' && 'dragon').includes('on')))
 // Use the Date object to do the following activities
 
 // What is the year today?
+let todayYr = new Date()
+console.log(todayYr.getFullYear())
 // What is the month today as a number?
+let todayMonth = new Date()
+console.log(todayMonth.getMonth() + 1)
 // What is the date today?
+let todayyDate = new Date()
+console.log(todayyDate.getDate())
 // What is the day today as a number?
+const todayDate = new Date()
+console.log(todayDate.getDay())
 // What is the hours now?
 // What is the minutes now?
 // Find out the numbers of seconds elapsed from January 1, 1970 to now.
 // Exercises: Level 2
 // Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
-
+let base = prompt('base of triangle', 'enter here')
+let heightTr = prompt('height of triangle', 'enter')
+let area = 0.5*base*heightTr
+console.log(area)
 // Enter base: 20
 // Enter height: 10
 // The area of the triangle is 100
 // Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
-
+  
 // Enter side a: 5
 // Enter side b: 4
 // Enter side c: 3
